@@ -1,15 +1,16 @@
 body {
 	background: black;
-	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif, cursive;
+	font-family: "Playwrite AU QLD", cursive;
 }
 .postcard {
-	width: 400px;
-	height: 300px;
+	width: 450px;
+	height: 350px;
 	background: white;
 	margin: auto;
 }
 .postcard-header {
 	display: flex;
+	padding: 10px;
 }
 .postcard-header img {
 	width: 50px;
@@ -18,32 +19,41 @@ body {
 .postcard-header h1 {
 	width: 100%;
 	margin: 0;
+	padding-top: 10px;
 }
 .postcard-body {
 	display: flex;
 }
 .body-left p:first-child {
+	text-align: justify;
 	margin-top: none;
 }
 .body-right {
-	margin-top: none;
+	color: white;
+	margin-top: 2%;
+	text-spacing-trim: 10px;
+	border-bottom: 1px;
 }
 .body-left,
 .body-right {
 	padding: 10px;
+	font-size: 12px;
 }
 input {
 	border: none;
-	border-bottom: gray;
+	border-bottom: 1px grey solid;
+	font-family: "Playwrite AU QLD", cursive;
 }
-p {
-	font-size: 18px;
-}
+
 .postcard-footer {
 	text-align: center;
+	margin-top: none;
 }
 button {
-	background-color: grey;
-	text: white;
-	padding: 5px;
+	background-color: lightgrey;
+	color: black;
+	padding: 5px 10px;
+	border: none;
+	border-bottom: 2px grey;
+	font-family: "Playwrite AU QLD", cursive;
 }
